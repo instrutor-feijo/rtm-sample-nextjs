@@ -1,10 +1,10 @@
-import React from "react";
-import Head from "next/head";
 import "./global.css";
+import Head from "next/head";
+
 
 function MyApp({ Component, pageProps }) {
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>rtm-sample</title>
         <meta
@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
-    </React.Fragment>
+    </>
   );
 }
 
