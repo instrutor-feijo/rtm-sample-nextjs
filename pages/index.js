@@ -1,7 +1,7 @@
 const Cover = () => {
   return (
     <div className="cover">
-      RTM Manager
+      RTM Manager 2023
     </div>
   );
 };
