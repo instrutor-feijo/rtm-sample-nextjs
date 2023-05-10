@@ -1,0 +1,35 @@
+.coverChild,
+.coverItem {
+  position: absolute;
+  top: 26px;
+  left: 0;
+  background-color: #f3f3f3;
+  width: 1024px;
+  height: 768px;
+}
+.coverItem {
+  top: 0;
+  background-color: #020202;
+  height: 76px;
+}
+.edgeFunctions,
+.realTimeManager {
+  position: absolute;
+  top: 96px;
+  left: 32px;
+}
+.realTimeManager {
+  top: 18px;
+  color: #ff7a00;
+}
+.cover {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: #000;
+  font-family: var(--font-jaldi);
+}
