@@ -1,11 +1,11 @@
-import styles from "./index.module.css";
+
 const Cover = () => {
   return (
-    <div className={styles.cover}>
-      <div className={styles.coverChild} />
-      <div className={styles.coverItem} />
-      <div className={styles.edgeFunctions}>Edge Functions</div>
-      <div className={styles.realTimeManager}>Real Time Manager</div>
+    <div className="cover">
+      <div className="coverChild" />
+      <div className="coverItem" />
+      <div className="edgeFunctions">Edge Functions</div>
+      <div className="realTimeManager">Real Time Manager</div>
     </div>
   );
 };

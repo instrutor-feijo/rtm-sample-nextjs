@@ -1,6 +1,5 @@
-import "./global.css";
 import Head from "next/head";
-
+import "./global.css";
 
 function MyApp({ Component, pageProps }) {
   return (
